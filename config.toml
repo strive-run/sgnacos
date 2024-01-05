@@ -1,0 +1,7 @@
+dataDir="./data"
+
+[log]
+level="debug"
+
+[server]
+port=8848
