@@ -88,7 +88,7 @@ func Http(app *fiber.App) {
 
 	g.Put("/v1/ns/instance/beat", func(c *fiber.Ctx) error {
 		return c.JSON(fiber.Map{
-			"clientBeatInterval": 3600,
+			"clientBeatInterval": 3600_000,
 			"lightBeatEnabled":   true,
 		})
 	})
